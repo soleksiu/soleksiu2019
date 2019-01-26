@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11A115B138A1AF1D2D231BAA /* soleksiu2019.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = soleksiu2019.podspec; path = ../soleksiu2019.podspec; sourceTree = "<group>"; };
+		11A115B138A1AF1D2D231BAA /* soleksiu2019.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = soleksiu2019.podspec; path = ../soleksiu2019.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1340E752E056E21C574456AC /* Pods_soleksiu2019_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_soleksiu2019_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23AC17810A5EC2B38D95193E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		23AC17810A5EC2B38D95193E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		339D71B38F8A6656DDC36161 /* Pods-soleksiu2019_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soleksiu2019_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-soleksiu2019_Example/Pods-soleksiu2019_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		430A2A928F4E8CE63C158D31 /* Pods-soleksiu2019_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soleksiu2019_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-soleksiu2019_Example/Pods-soleksiu2019_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* soleksiu2019_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soleksiu2019_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		627E0CEBED7E4C1151F4B07A /* Pods_soleksiu2019_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_soleksiu2019_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B43E9594E66033F9F5296241 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B43E9594E66033F9F5296241 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D1F10A8A4658A83D78603012 /* Pods-soleksiu2019_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soleksiu2019_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-soleksiu2019_Tests/Pods-soleksiu2019_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E717C7C2B12A98E0F871D093 /* Pods-soleksiu2019_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soleksiu2019_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-soleksiu2019_Tests/Pods-soleksiu2019_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -266,15 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-soleksiu2019_Tests-checkManifestLockResult.txt",
 			);
@@ -288,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-soleksiu2019_Example/Pods-soleksiu2019_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/soleksiu2019/soleksiu2019.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/soleksiu2019.framework",
 			);
@@ -310,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-soleksiu2019_Example-checkManifestLockResult.txt",
 			);

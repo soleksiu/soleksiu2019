@@ -1,0 +1,6 @@
+framework module soleksiu2019 {
+  umbrella header "soleksiu2019-umbrella.h"
+
+  export *
+  module * { export * }
+}
