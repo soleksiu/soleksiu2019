@@ -1,5 +1,5 @@
 PODS:
-  - soleksiu2019 (0.1.0)
+  - soleksiu2019 (0.0.3)
 
 DEPENDENCIES:
   - soleksiu2019 (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  soleksiu2019: f2513945bac866e9b73ed8f516fe287250dd9b9d
+  soleksiu2019: 9abfbb77563f3ea0ed089f22e2b798faeb073137
 
 PODFILE CHECKSUM: 1d319b467bd3adac4dec9c0e92918ba224e67a0d
 

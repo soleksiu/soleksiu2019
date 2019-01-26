@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		03641B9FE1BC5536D661025B5AA6F7FA /* Pods-soleksiu2019_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C59CB070D58F9212999944328ED668E /* Pods-soleksiu2019_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0566C8619106C00953D59723CBD155EF /* soleksiu2019-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 449390A189C5EB0E16C329B942D4EEC9 /* soleksiu2019-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0566C8619106C00953D59723CBD155EF /* soleksiu2019-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 985630FF577A1052D9D33358569E3189 /* soleksiu2019-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08B839796C04CEC6526D4638386CA8CB /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F661494FC6188BDB3C2F801B45FBA7A /* Article.swift */; };
 		0EFF08E41A3D3EDAD20814CACB33496E /* Pods-soleksiu2019_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4341CF5DBBA34FC9C0DA68F21728037 /* Pods-soleksiu2019_Tests-dummy.m */; };
-		5EE41124D48DF118E2C7441858743D3C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B5D1E53A76EC8B7D93D05619F488B8 /* ReplaceMe.swift */; };
 		70D89D900F5FB0DE302EEF0E43DD271F /* Pods-soleksiu2019_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F018AB2A028EABD372E3F280FFBE2A /* Pods-soleksiu2019_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72A9C9FE37A98563750A9AD872B9A8F9 /* soleksiu2019-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC2D8A49A4DB2C2E8D8CC64CBF2E26 /* soleksiu2019-dummy.m */; };
 		746F2FA7671C0BD1D23390353B3E2D44 /* Pods-soleksiu2019_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD59E591500784BF584293A73F9CCC6F /* Pods-soleksiu2019_Example-dummy.m */; };
-		78DEAAA940DAB648BFE0F28E9EA4D6FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		89A97CC8FB534AD8F7E352CD8C79C299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		E350137470914C248A27A34F7E7BFF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		78DEAAA940DAB648BFE0F28E9EA4D6FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA26547F61D60F87F0718A27FB63C9 /* Foundation.framework */; };
+		8FE8A4A7795976BF778E4EB7D9E78E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA26547F61D60F87F0718A27FB63C9 /* Foundation.framework */; };
+		9B8963BEF87EE6667187897AA70386BB /* soleksiu2019-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD38FA556522C28659265C45E65CC85 /* soleksiu2019-dummy.m */; };
+		D8B51C602553055DFC08EB334453CFD7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FCDE1D77EAF9FA582977498442221B /* CoreData.framework */; };
+		DA22B201F1D40E34047E8ADF8B88AD3E /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D2F5F8C4AE225C0D4EBC7784098A81 /* ArticleManager.swift */; };
+		E350137470914C248A27A34F7E7BFF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA26547F61D60F87F0718A27FB63C9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,42 +41,53 @@
 /* Begin PBXFileReference section */
 		053EC4A610460482F2EE27283EA0AD4A /* Pods-soleksiu2019_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-soleksiu2019_Tests.modulemap"; sourceTree = "<group>"; };
 		07D3169E6B4344E917F60DCAA3EFBB01 /* Pods-soleksiu2019_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-soleksiu2019_Example.release.xcconfig"; sourceTree = "<group>"; };
-		09B5D1E53A76EC8B7D93D05619F488B8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = soleksiu2019/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		162EA80DF05F13ADE62E26491A318DCF /* Pods-soleksiu2019_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-soleksiu2019_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3549A36099F38F2D4BD0017081F3D63F /* soleksiu2019.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = soleksiu2019.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16FCDE1D77EAF9FA582977498442221B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		1BD38FA556522C28659265C45E65CC85 /* soleksiu2019-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "soleksiu2019-dummy.m"; sourceTree = "<group>"; };
+		24D2F5F8C4AE225C0D4EBC7784098A81 /* ArticleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArticleManager.swift; path = soleksiu2019/Classes/ArticleManager.swift; sourceTree = "<group>"; };
+		27AA26547F61D60F87F0718A27FB63C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2880C7F35C4A7FA3FE920D82EFB4E704 /* soleksiu2019.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = soleksiu2019.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		383436C6981775C0836F075CE76A9F4F /* Pods-soleksiu2019_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-soleksiu2019_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3C127F4CE20FDF6C85581653032B9C9F /* Pods-soleksiu2019_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-soleksiu2019_Example-resources.sh"; sourceTree = "<group>"; };
-		42EC2D8A49A4DB2C2E8D8CC64CBF2E26 /* soleksiu2019-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "soleksiu2019-dummy.m"; sourceTree = "<group>"; };
-		449390A189C5EB0E16C329B942D4EEC9 /* soleksiu2019-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "soleksiu2019-umbrella.h"; sourceTree = "<group>"; };
-		45E41F2B2BEE6E7E84192BDB086A6F39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4881672CC3B1C2A2D57B9A12F851EF16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		64956817839637FC2D2F890E8347060F /* Pods-soleksiu2019_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-soleksiu2019_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		76DDA68CFEE2D1608ED70213FEF88CF3 /* Pods-soleksiu2019_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-soleksiu2019_Tests-resources.sh"; sourceTree = "<group>"; };
 		7B84C2E52EC7CD04D05A053FAD3A81A6 /* Pods-soleksiu2019_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-soleksiu2019_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7B8F247E47128AC4161A1DF6BB5511DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C59CB070D58F9212999944328ED668E /* Pods-soleksiu2019_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-soleksiu2019_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7E44AAC18D5AB52DB26C28DF9E830924 /* Pods-soleksiu2019_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-soleksiu2019_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7EBFB21493DB6CFC4222707FA0B688C9 /* Pods_soleksiu2019_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_soleksiu2019_Example.framework; path = "Pods-soleksiu2019_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8716AD35CA4D4B4829562C35F5EE1D0F /* soleksiu2019.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = soleksiu2019.modulemap; sourceTree = "<group>"; };
-		8A0F6AEFD0D65C74F5DC6966CA438C7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8E3B88E5C2C447FF692C2B5FAB2A7824 /* soleksiu2019-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "soleksiu2019-prefix.pch"; sourceTree = "<group>"; };
 		9287C587103F6046AD7AA9D4DD0A43DE /* Pods-soleksiu2019_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-soleksiu2019_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96CC3BC7C431F67B793D02B5A11CF25B /* Pods-soleksiu2019_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-soleksiu2019_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		985630FF577A1052D9D33358569E3189 /* soleksiu2019-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "soleksiu2019-umbrella.h"; sourceTree = "<group>"; };
+		9F661494FC6188BDB3C2F801B45FBA7A /* Article.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Article.swift; path = soleksiu2019/Classes/Article.swift; sourceTree = "<group>"; };
 		A0B22D941F51F279218C8D3F60B78E8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC34519017BAC7B7DD77BA402A6F6F0D /* soleksiu2019-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "soleksiu2019-prefix.pch"; sourceTree = "<group>"; };
+		A4306C4B07DC219444F613F691D28033 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		ADB8AC7A24F00B2E62ED7FB700EDC6A7 /* soleksiu2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = soleksiu2019.framework; path = soleksiu2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9EA05CE051F6D7F4E9B07B4654633A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0976B8E01297DA47E66D9827C319DC2 /* soleksiu2019.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = soleksiu2019.xcconfig; sourceTree = "<group>"; };
+		B15EFA938745C17CADACA23D723C97EC /* soleksiu2019.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = soleksiu2019.modulemap; sourceTree = "<group>"; };
 		B63FAB63463D03CFFC7A1014D3EF7A71 /* Pods-soleksiu2019_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-soleksiu2019_Example.modulemap"; sourceTree = "<group>"; };
 		C4341CF5DBBA34FC9C0DA68F21728037 /* Pods-soleksiu2019_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-soleksiu2019_Tests-dummy.m"; sourceTree = "<group>"; };
+		CB03C3AFF2D10D03F67B98FA935C071B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D187979FF015E10D5B32EF4B9A1F09D8 /* Pods_soleksiu2019_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_soleksiu2019_Tests.framework; path = "Pods-soleksiu2019_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DD59E591500784BF584293A73F9CCC6F /* Pods-soleksiu2019_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-soleksiu2019_Example-dummy.m"; sourceTree = "<group>"; };
 		E39DD76ACDE7EA34A38978FE12CAA268 /* Pods-soleksiu2019_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-soleksiu2019_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E8F98ACD3C2D89E44CDC84324CDC55DC /* Pods-soleksiu2019_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-soleksiu2019_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F6F018AB2A028EABD372E3F280FFBE2A /* Pods-soleksiu2019_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-soleksiu2019_Example-umbrella.h"; sourceTree = "<group>"; };
-		FF4D10FF33B0A123EF37D61AC93C3023 /* soleksiu2019.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = soleksiu2019.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		048A82B153E598B630A7D0053D539BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B51C602553055DFC08EB334453CFD7 /* CoreData.framework in Frameworks */,
+				8FE8A4A7795976BF778E4EB7D9E78E97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		753D30555065741BE8B87269EA932B79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,58 +104,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4CA8A29B82287ECA108226D5210C6D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89A97CC8FB534AD8F7E352CD8C79C299 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23B1A3FA2206D887EAD990EAA83A63E6 /* Support Files */ = {
+		01E2E84F1B442AB44B066696BA1F12C1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7B8F247E47128AC4161A1DF6BB5511DD /* Info.plist */,
-				8716AD35CA4D4B4829562C35F5EE1D0F /* soleksiu2019.modulemap */,
-				FF4D10FF33B0A123EF37D61AC93C3023 /* soleksiu2019.xcconfig */,
-				42EC2D8A49A4DB2C2E8D8CC64CBF2E26 /* soleksiu2019-dummy.m */,
-				AC34519017BAC7B7DD77BA402A6F6F0D /* soleksiu2019-prefix.pch */,
-				449390A189C5EB0E16C329B942D4EEC9 /* soleksiu2019-umbrella.h */,
+				CB03C3AFF2D10D03F67B98FA935C071B /* Info.plist */,
+				B15EFA938745C17CADACA23D723C97EC /* soleksiu2019.modulemap */,
+				B0976B8E01297DA47E66D9827C319DC2 /* soleksiu2019.xcconfig */,
+				1BD38FA556522C28659265C45E65CC85 /* soleksiu2019-dummy.m */,
+				8E3B88E5C2C447FF692C2B5FAB2A7824 /* soleksiu2019-prefix.pch */,
+				985630FF577A1052D9D33358569E3189 /* soleksiu2019-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/soleksiu2019";
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				D3154A965F8FF503ECA8029207AC9FE3 /* iOS */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		52990AE6F15BEE74DCFD14C9ADB5A97B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8A0F6AEFD0D65C74F5DC6966CA438C7F /* LICENSE */,
-				45E41F2B2BEE6E7E84192BDB086A6F39 /* README.md */,
-				3549A36099F38F2D4BD0017081F3D63F /* soleksiu2019.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5B4F9558302157E3A97E9D6B3F64F46D /* soleksiu2019 */ = {
-			isa = PBXGroup;
-			children = (
-				09B5D1E53A76EC8B7D93D05619F488B8 /* ReplaceMe.swift */,
-				52990AE6F15BEE74DCFD14C9ADB5A97B /* Pod */,
-				23B1A3FA2206D887EAD990EAA83A63E6 /* Support Files */,
-			);
-			name = soleksiu2019;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5D2B0810DCCA05787BF6778FC4EBC3F7 /* Targets Support Files */ = {
@@ -152,6 +136,18 @@
 				A7C819C586E9A04B17B64D72FF6BF263 /* Pods-soleksiu2019_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		74AC3541B21D4D20CD1D02DDFEA23384 /* soleksiu2019 */ = {
+			isa = PBXGroup;
+			children = (
+				9F661494FC6188BDB3C2F801B45FBA7A /* Article.swift */,
+				24D2F5F8C4AE225C0D4EBC7784098A81 /* ArticleManager.swift */,
+				C5B9D192DB0A3C03B83831119EBFF451 /* Pod */,
+				01E2E84F1B442AB44B066696BA1F12C1 /* Support Files */,
+			);
+			name = soleksiu2019;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		775D6568B4101F6EB207C97C766557BB /* Products */ = {
@@ -168,19 +164,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A0FBBFA171282C1CE33207EEE6B00916 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A9BFB281E9D59D1DEC1EF2B118AE8572 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				775D6568B4101F6EB207C97C766557BB /* Products */,
 				5D2B0810DCCA05787BF6778FC4EBC3F7 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		A0FBBFA171282C1CE33207EEE6B00916 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B4F9558302157E3A97E9D6B3F64F46D /* soleksiu2019 */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A7C819C586E9A04B17B64D72FF6BF263 /* Pods-soleksiu2019_Tests */ = {
@@ -201,12 +189,31 @@
 			path = "Target Support Files/Pods-soleksiu2019_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A9BFB281E9D59D1DEC1EF2B118AE8572 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
+				74AC3541B21D4D20CD1D02DDFEA23384 /* soleksiu2019 */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C5B9D192DB0A3C03B83831119EBFF451 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4881672CC3B1C2A2D57B9A12F851EF16 /* LICENSE */,
+				A4306C4B07DC219444F613F691D28033 /* README.md */,
+				2880C7F35C4A7FA3FE920D82EFB4E704 /* soleksiu2019.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D3154A965F8FF503ECA8029207AC9FE3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				16FCDE1D77EAF9FA582977498442221B /* CoreData.framework */,
+				27AA26547F61D60F87F0718A27FB63C9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F4DD721C86EC2CA9D2C3AFC380BE7975 /* Pods-soleksiu2019_Example */ = {
@@ -262,8 +269,8 @@
 			buildConfigurationList = FCDA1A97A346CA21DB719B227F2F1E27 /* Build configuration list for PBXNativeTarget "soleksiu2019" */;
 			buildPhases = (
 				036D51784205AFCDCA845D702D9C8EA6 /* Headers */,
-				E25C9CD3AC2BFAAE183439206E33BFDB /* Sources */,
-				D4CA8A29B82287ECA108226D5210C6D7 /* Frameworks */,
+				A9C26C92F5249E388C5EFE09CBBF461E /* Sources */,
+				048A82B153E598B630A7D0053D539BD9 /* Frameworks */,
 				2F4621CAE7DB029A6B3D77757BA0D84B /* Resources */,
 			);
 			buildRules = (
@@ -374,12 +381,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E25C9CD3AC2BFAAE183439206E33BFDB /* Sources */ = {
+		A9C26C92F5249E388C5EFE09CBBF461E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EE41124D48DF118E2C7441858743D3C /* ReplaceMe.swift in Sources */,
-				72A9C9FE37A98563750A9AD872B9A8F9 /* soleksiu2019-dummy.m in Sources */,
+				08B839796C04CEC6526D4638386CA8CB /* Article.swift in Sources */,
+				DA22B201F1D40E34047E8ADF8B88AD3E /* ArticleManager.swift in Sources */,
+				9B8963BEF87EE6667187897AA70386BB /* soleksiu2019-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +519,7 @@
 		};
 		4AB926F84C93BCFE078C7E61066CF23B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF4D10FF33B0A123EF37D61AC93C3023 /* soleksiu2019.xcconfig */;
+			baseConfigurationReference = B0976B8E01297DA47E66D9827C319DC2 /* soleksiu2019.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -705,7 +713,7 @@
 		};
 		A62AE5E850782FA501DA784716BC1FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF4D10FF33B0A123EF37D61AC93C3023 /* soleksiu2019.xcconfig */;
+			baseConfigurationReference = B0976B8E01297DA47E66D9827C319DC2 /* soleksiu2019.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
