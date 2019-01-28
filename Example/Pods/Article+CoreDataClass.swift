@@ -11,5 +11,12 @@ import CoreData
 
 @objc(Article)
 public class Article: NSManagedObject {
+    
+
+         override public var description: String? {
+            get {
+                return ("Here is the article info: \n Title: \(title)\n Content: \(content)\n Language: \(language)\n Modification date: \(modificationDate)\n Creation date: \(creationDate)")
+            }
+        }
 
 }

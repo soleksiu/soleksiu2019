@@ -13,51 +13,28 @@ public class ArcticleManager {
     
     public var allArticles: [Article]?
     public var context: NSManagedObjectContext?
-//    lazy var model: NSManagedObjectModel = {
-//        let sexyFrameworkBundleIdentifier = "org.cocoapods.soleksiu2019"
-//        let customKitBundle = Bundle(identifier: sexyFrameworkBundleIdentifier)!
-//        let modelURL = customKitBundle.url(forResource: "article", withExtension: "momd")!
-//        return NSManagedObjectModel(contentsOf: modelURL)!
-//    }()
     public  init() {
-//        let bundle = Bundle(for: Article.self)
-                let bundle = Bundle(identifier: "org.cocoapods.soleksiu2019")
+        let bundle = Bundle(identifier: "org.cocoapods.soleksiu2019")
         guard let modelUrl = bundle?.url(forResource: "article", withExtension: "momd") else {
             fatalError("No model URL")
         }
-        
         guard let model = NSManagedObjectModel(contentsOf: modelUrl) else {
             fatalError("No model")
         }
-        
-
         let psc = NSPersistentStoreCoordinator(managedObjectModel: model)
         context = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
-        let documentURL = try! FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last
-        let storeURL = documentURL?.appendingPathComponent("soleksiu2019.sqlite"); do {
-            try psc.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: "article", at: storeURL, options: nil)
+        context?.persistentStoreCoordinator = psc
+        let documentURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last
+        let storeURL = documentURL?.appendingPathComponent("soleksiu2019.sqlite")
+        do {
+            try psc.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: nil)
         }
         catch {
             fatalError("No strore URL")
         }
-//        try! psc.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: stoteURL, options: nil)
-
-        context?.persistentStoreCoordinator = psc
     }
     
     public func newArticle() -> Article {
-//        var newArticle = Article()
-//        context?.performAndWait() {
-//            let entity: NSEntityDescription = NSEntityDescription.entity(forEntityName: "Article", in: context!)!
-//            newArticle = Article(entity:entity, insertInto: context)
-//            newArticle.title = "Default"
-//            newArticle.content = "Default"
-//            newArticle.language = "En"
-//            newArticle.image = nil
-//            newArticle.creation_date = nil
-//            //            newArticle.creation_date = NSDate()
-//            newArticle.modification_date = newArticle.creation_date
-//        }
         return (NSEntityDescription.insertNewObject(forEntityName: "Article", into: context!) as! Article)
     }
     
@@ -118,7 +95,6 @@ public class ArcticleManager {
         }
         return result
     }
-    
     public func removeArticle(article : Article)  {
         context?.delete(article)
     }

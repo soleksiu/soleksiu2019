@@ -22,5 +22,4 @@ extension Article {
     @NSManaged public var language: String?
     @NSManaged public var modificationDate: NSDate?
     @NSManaged public var title: String?
-
 }

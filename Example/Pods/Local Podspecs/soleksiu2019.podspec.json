@@ -1,6 +1,6 @@
 {
   "name": "soleksiu2019",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "summary": "Pod soleksiu2019 is the learning project in School42.",
   "description": "This is pod created for learning purpose in Unit Factory(School42). Kiev. Ukraine. It will be used to learn a swift language.",
   "homepage": "https://github.com/soleksiu/soleksiu2019",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/soleksiu/soleksiu2019.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "8.0"
