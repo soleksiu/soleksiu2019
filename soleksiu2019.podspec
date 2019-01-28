@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'soleksiu2019'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'Pod soleksiu2019 is the learning project in School42.'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,13 @@ s.description      = 'This is pod created for learning purpose in Unit Factory(S
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'soleksiu2019/Classes/**/*'
+  s.resources = 'soleksiu2019/Assets/**/*'
+
   s.frameworks = 'CoreData'
   s.swift_version = '4.0'
+
   # s.resource_bundles = {
-  #   'soleksiu2019' => ['soleksiu2019/Assets/*.png']
+  #   'soleksiu2019' => ['soleksiu2019/Assets/*']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
